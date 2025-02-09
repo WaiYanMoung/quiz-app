@@ -1,0 +1,116 @@
+
+/* quizzes */
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.card{
+  /* display: table-cell !important; */
+  width: 100% !important;
+}
+
+/* Quiz.css */
+.quiz-container {
+  margin: auto;
+  text-align: center;
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 8px;
+  width: 400px; /* Adjust as needed */
+  background-color: #f8f8f8;
+  font-family: sans-serif; /* Consistent font */
+}
+
+.quiz-container h2 {
+    color: #333; /* Darker heading color */
+}
+
+.options-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+.option {
+  margin-bottom: 10px;
+}
+
+.option-button {
+  width: 100%;
+  padding: 12px; /* Slightly larger padding */
+  border: 1px solid #ccc;
+  border-radius: 5px; /* More rounded buttons */
+  background-color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s; /* Smooth transitions */
+  font-size: 16px; /* Slightly larger font */
+}
+
+.option-button:hover {
+  background-color: #eee;
+}
+
+.option-button.selected {
+  background-color: #e0f2f7; /* Light blue for selected */
+  border-color: #2196f3; /* Blue border when selected */
+}
+
+.option-button.correct {
+  background-color: #4caf50; /* Green for correct */
+  color: #fff;
+}
+
+.option-button.incorrect {
+  background-color: #f44336; /* Red for incorrect */
+  color: #fff;
+}
+
+.result {
+  margin-top: 20px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.correct-message {
+  color: #4caf50; /* Green */
+}
+
+.incorrect-message {
+  color: #f44336; /* Red */
+
+}
+.Answered{
+  color: red;
+  margin-top: 10px;
+  /* background-color: black; */
+}
+.title{
+  padding: auto;
+  font-size: 100px;
+  text-align: center;
+  color: green;
+}
+.btns{
+  width: 400px;
+  margin: 40px 0px;
+  background-color: #4caf50 !important;
+  padding: 12px !important;
+  color: white !important;
+}
+.img{
+  width: 150px;
+  height: 150px;
+}
+.answeredDiv{
+  
+}
+.quizzes{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  text-align: center;
+}
+.category{
+  text-align: center;
+  margin: auto;
+}
